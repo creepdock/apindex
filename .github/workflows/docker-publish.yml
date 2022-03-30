@@ -27,6 +27,8 @@ jobs:
       id-token: write
 
     steps:
+      - name: On est où là
+        run: pwd
       - name: Checkout repository
         uses: actions/checkout@v2
 
